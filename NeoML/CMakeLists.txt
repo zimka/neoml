@@ -96,3 +96,6 @@ if(NeoML_INSTALL)
         )
     endif()
 endif()
+
+# Debug only!
+add_subdirectory(../TestOnnx ${CMAKE_BINARY_DIR}/TestOnnx)
